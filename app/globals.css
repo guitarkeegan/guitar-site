@@ -12,6 +12,10 @@
   animation: fadein 3s;
 }
 
+#btw-page {
+  color: rgb(150, 254, 71);
+}
+
 @keyframes fadein {
   from {opacity: 0;},
   to {opacity: 1;}
