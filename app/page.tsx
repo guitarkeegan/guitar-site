@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe";
+import Features from "@/components/Features";
 import Welcome from "@/components/Welcome";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </section>
       <Welcome />
       <AboutMe />
+      <Features />
     </main>
   )
 }

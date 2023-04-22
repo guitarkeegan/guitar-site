@@ -16,3 +16,24 @@
   from {opacity: 0;},
   to {opacity: 1;}
 }
+
+.balls:hover > h3 {
+  transform: translateY(-80px);
+  transition: all 1s ease-in-out;
+}
+
+.balls:hover {
+  
+}
+
+.balls p {
+  display: none;
+  opacity: 0;
+}
+
+.balls:hover p {
+  display: block;
+  opacity: 1;
+  text-align: center;
+  transition: opacity 2s, display 2s;
+}
