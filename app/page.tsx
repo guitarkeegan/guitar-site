@@ -1,5 +1,7 @@
 import AboutMe from "@/components/AboutMe";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
+import LessonDemos from "@/components/LessonDemos";
 import Welcome from "@/components/Welcome";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       <Welcome />
       <AboutMe />
       <Features />
+      <LessonDemos />
+      <Footer/>
     </main>
   )
 }
