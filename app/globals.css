@@ -17,13 +17,15 @@
   to {opacity: 1;}
 }
 
+@media (max-width: 1199px){
+.balls p {
+  font-size: 16px;
+}
+}
+@media (min-width: 1200px) {
 .balls:hover > h3 {
   transform: translateY(-80px);
   transition: all 1s ease-in-out;
-}
-
-.balls:hover {
-  
 }
 
 .balls p {
@@ -36,4 +38,7 @@
   opacity: 1;
   text-align: center;
   transition: opacity 2s, display 2s;
+}
+
+
 }
