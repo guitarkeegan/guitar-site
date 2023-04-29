@@ -12,8 +12,13 @@
   animation: fadein 3s;
 }
 
-#btw-page {
+#btw-page, #prompt {
   color: rgb(150, 254, 71);
+}
+
+#secret-input {
+  border: 0;
+  outline: none;
 }
 
 @keyframes fadein {
